@@ -1,0 +1,30 @@
+/* general */
+body {
+	background-image: url("images/bkgd.jpg");}
+h2 {
+	font-style: italic;}
+
+/* page header */
+.page-header {
+	margin-top: 70px;
+	padding-left: 10px;}
+
+/* navigation bar */
+.navbar {
+	opacity: 0.9;}
+
+/* portfolio */
+#portfolio img {
+	width: 500px;
+	height: 300px;}
+.portDescrip {
+	margin-top: 5px;}
+
+/* footer */
+#footer {
+	position: relative;
+ 	margin-top: 5px;
+ 	padding: 3px;
+ 	font-size: 90%;
+ 	color: black;
+ 	text-align: right;}
