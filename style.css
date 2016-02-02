@@ -4,6 +4,7 @@ body {
 }
 h2 {
 	font-style: italic;
+	margin-bottom: 20px;
 }
 
 /* page header */
@@ -17,14 +18,37 @@ h2 {
 	opacity: 0.9;
 }
 
-/* about page */
-#about img {
-	float: left;
-	width: 140px;
-	margin-right: 10px;
+/* index page */
+#index img {
+	width: 100%;
+	-webkit-filter: grayscale(90%); 
 }
 
-/* portfolio */
+/* about page */
+#books {
+	width: 100%;
+	-webkit-filter: grayscale(90%); 
+}
+#selfie {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+	border-radius: 100%;
+}
+
+
+/* résumé page */
+#resume img {
+	width: 80%;
+	margin: 10px auto;
+	box-shadow: 2px 2px 10px #bdbdbd;
+}
+#resume a {
+	display: block;
+	margin-top: 10px;
+}
+
+/* portfolio page */
 .row h3 {
 	font-size: 1.6em;
 }
@@ -36,7 +60,7 @@ h2 {
 }
 .row div {
 	width: 30%;
-	height: 380px;
+	height: 360px;
 	margin: 10px;
 	display: inline-block;
 	float: left;
@@ -45,23 +69,17 @@ h2 {
 	text-decoration: none;
 	color: #333;
 }
-
 #portfolio a:hover { 
 	text-shadow: 2px 2px 3px #bdbdbd;
-}
-
-/* résumé */
-#resume {
-	width: 800px;
-	margin: auto;
 }
 
 /* footer */
 #footer {
 	position: relative;
- 	margin-top: 5px;
- 	padding: 10px;
+ 	padding: 10px 20px 10px 10px;
+ 	margin-top: 20px;
  	font-size: 90%;
- 	color: black;
+ 	color: #fff;
  	text-align: right;
+ 	background-color: black;
  }
